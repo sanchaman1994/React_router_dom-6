@@ -1,4 +1,4 @@
-React-router-dom@6
+##React-router-dom@6
 <Router> Component
 The project utilizes the <Router> component to wrap the entire application, providing the context for navigation.
 
@@ -9,7 +9,7 @@ jsx
 Copy code
 import { Route } from 'react-router-dom';
 
-// Example Route
+## Example Route
 <Route path="/home" element={<Home />} />
 <BrowserRouter> Component
 The <BrowserRouter> component is used to provide the context for routing and navigation.
@@ -18,7 +18,7 @@ jsx
 Copy code
 import { BrowserRouter as Router } from 'react-router-dom';
 
-// Example Usage
+## Example Usage
 <Router>
   {/* Your application components */}
 </Router>
@@ -29,6 +29,6 @@ jsx
 Copy code
 import { useNavigate } from 'react-router-dom';
 
-// Example Usage
+## Example Usage
 const navigate = useNavigate();
 navigate('/dashboard');
